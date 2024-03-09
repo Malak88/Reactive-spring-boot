@@ -1,0 +1,10 @@
+spring:
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: malak1
+  flyway:
+    url: jdbc:postgresql://localhost:5432/postgres
+    user: postgres
+    password: malak1
+    #enabled: false
